@@ -13,6 +13,8 @@ namespace calculator
             Calculator calc = new Calculator();
 
             calc.Add(10f, 20f);
+
+            calc.Minus(10f, 20f);
                 
         }
     }
@@ -24,8 +26,12 @@ namespace calculator
             Console.WriteLine("Сумма {0} и {1} равна {2}", x, y, x + y);
 
             Console.ReadLine();
+            return x + y;
+        }
 
-            Console.WriteLine("Сумма {0} и {1} равна {2}", x, y, x + y);
+        public float Minus(float x, float y)
+        {
+            Console.WriteLine("Разность {0} и {1} равна {2}", x, y, x - y);
 
             Console.ReadLine();
             return x + y;
