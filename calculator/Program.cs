@@ -36,5 +36,13 @@ namespace calculator
             Console.ReadLine();
             return x + y;
         }
+
+        public float mod2(float x, float y)
+        {
+            Console.WriteLine("Разность {0} и {1} равна {2}", x, y, x % y);
+
+            Console.ReadLine();
+            return x + y;
+        }
     }
 }
