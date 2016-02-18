@@ -25,6 +25,8 @@ namespace calculator
 
             Console.ReadLine();
 
+            Console.WriteLine("Сумма {0} и {1} равна {2}", x, y, x + y);
+
             Console.ReadLine();
             return x + y;
         }
